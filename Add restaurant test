@@ -1,0 +1,19 @@
+class Restaurante:
+    def __init__(self, nome, localizacao):
+        self.nome = nome
+        self.localizacao = localizacao
+        self.cardapio = {}
+
+    def adicionar_categoria(self, categoria):
+        if categoria not in self.cardapio:
+            self.cardapio[categoria] = []
+    
+    def adicionar_prato(self, categoria, prato):
+        if categoria in self.cardapio:
+            self.cardapio[categoria].append(prato)
+        else:
+            print("Categoria não encontrada.")
+
+    def listar_cardapio(self):
+        for categoria, pratos in self.cardapio.items():
+            print(f"{categoria}: {', '.join(pratos)}")
