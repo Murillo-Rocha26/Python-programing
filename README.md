@@ -1,2 +1,2 @@
 # Python-programing
-Some python programs created by me
+Some python programs created during classes and studying a part
