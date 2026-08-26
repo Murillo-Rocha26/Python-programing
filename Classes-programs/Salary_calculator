@@ -1,0 +1,30 @@
+print("Preencha as seguintes informações.")
+input("Seu nome: ")
+input("Seu sobrenome: ")
+
+Idade = int(input("Sua idade: "))
+
+if Idade > 18:
+    print("Você pode trablhar nesta empresa!")
+
+else:
+    print("Você é um jovem aprendiz.")
+
+Salario = float(input("Informe seu salario atual: "))
+
+if Salario <= 3000:
+    print("Você é um programador Junior!")
+elif Salario > 3000 and Salario < 6000:
+    print("Você é um programador Senior!")
+elif Salario > 6000 and Salario < 9000:
+    print("Você é um programador Master!")
+
+print("Para isso resolva as seguintes equações: ")
+
+Resultado = int(input("100 * 10 = "))
+
+if Resultado == 10000:
+    print("Você está correto!")
+
+else:
+    print("Você está errado.")
