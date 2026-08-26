@@ -1,0 +1,21 @@
+import os
+
+mensagens = []
+
+nome = input("Nick: ")
+
+while True:
+    os.system = ('cls')
+    if len(mensagens) > 0:
+        for m in mensagens:
+            print(m["nome"], "-", m['texto'])
+    print("_________________")
+
+    texto = input("texto: ")
+    if texto == "fim":
+        break
+
+    mensagens.append({
+        "nome": nome,
+        "texto": texto
+    })
