@@ -1,4 +1,4 @@
-"""print("------------- RECIBO DE COMPRA -------------")
+print("------------- RECIBO DE COMPRA -------------")
 
 nome = input("Digite o nome do cliente: ")
 produto = input("Digite o nome do produto: ")
@@ -36,9 +36,9 @@ modulo = num1 % num2
 inteiro = num1 // num2
 
 print(f"Valor do módulo: {modulo}")
-print(f"Valor do inteiro: {inteiro}")"""
+print(f"Valor do inteiro: {inteiro}")
 
-"""
+
 nota_1 = float(input(f"Digite a nota 1: "))
 nota_2 =float(input(f"Digite a nota 2: "))
 nota_3 = float(input(f"Digite a nota 3: "))
@@ -46,7 +46,7 @@ nota_3 = float(input(f"Digite a nota 3: "))
 soma_nota = nota_1 + nota_2 + nota_3
 media = soma_nota / 3
 print(f"Soma da nota: {soma_nota}")
-print(f"Valor da média: {media: .1f}")"""
+print(f"Valor da média: {media: .1f}")
 
 nota_1 = float(input(f"Digite a nota 1: "))
 nota_2 =float(input(f"Digite a nota 2: "))
